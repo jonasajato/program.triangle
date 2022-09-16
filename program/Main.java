@@ -1,4 +1,4 @@
-package application;
+package program;
 
 import entities.Triangle;
 
@@ -27,8 +27,8 @@ public class Main {
         Double areaX = x.area();
         Double areaY = y.area();
 
-        System.out.println(("Area do triangulo X: ") + areaX);
-        System.out.println("Area do triangulo Y: " + areaY);
+        System.out.printf(("Area do triangulo X: %.2f"),  areaX);
+        System.out.printf("Area do triangulo Y: %.2f", areaY);
 
         if ( areaX > areaY){
             System.out.println("Area X eh maior.");
